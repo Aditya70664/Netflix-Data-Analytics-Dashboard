@@ -198,7 +198,7 @@ Aditya Sharma
 
 Data Analytics | SQL | Python | Power BI
 
-📧 Email: adityasha233@@example.com
+📧 Email: adityasha233@gmail.com
 
 ---
 
