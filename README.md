@@ -49,7 +49,8 @@ The dashboard brings key metrics and visual analysis together in one place, allo
 
 ## 🖥️ Dashboard Preview
 
-![Movie & Streaming Content Analytics Dashboard](Images/dashboard.png)
+![Movie & Streaming Content Analytics Dashboard](<img width="1285" height="722" alt="Screenshot 2026-05-21 191950" src="https://github.com/user-attachments/assets/1f4e3a4c-a794-46da-9be1-786f0ee776bc" />
+)
 
 ---
 
