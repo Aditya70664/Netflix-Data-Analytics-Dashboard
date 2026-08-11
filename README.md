@@ -192,17 +192,13 @@ Movie-Streaming-Content-Analytics/
 └── Images/
     └── dashboard.png
 
-## 👨‍💻 Author
+Author
 
-**Aditya Sharma**
+Aditya Sharma
 
 Data Analytics | SQL | Python | Power BI
 
-📧 **Email:** your-email@example.com
+📧 Email: adityasha233@@example.com
 
 ---
 
-## 📬 Contact
-
-**Aditya Sharma**  
-📧 your-email@example.com
