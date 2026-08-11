@@ -1,116 +1,208 @@
-# 🎬 Netflix Dashboard
+# 🎬 Movie & Streaming Content Analytics Dashboard
 
-An interactive **Netflix Dashboard** designed to analyze and visualize Netflix movies and TV shows using data visualization techniques. The dashboard provides insights into content distribution, genres, ratings, release years, countries, and other key metrics.
+An interactive Power BI dashboard built to analyze movie and streaming-content data, focusing on ratings, popularity, audience engagement, genres, languages, and content trends over time.
 
-## 📊 Project Overview
+---
 
-The **Netflix Dashboard** transforms raw Netflix data into an easy-to-understand visual dashboard. It helps users explore Netflix's content library and identify trends and patterns through interactive charts and visualizations.
+## 📌 Project Overview
 
-## 🚀 Features
+This project transforms a movie-content dataset into an interactive dashboard that makes it easier to explore content performance and identify useful patterns.
 
-* 📌 Total number of Movies and TV Shows
-* 🎬 Movies vs. TV Shows comparison
-* ⭐ Content rating analysis
-* 📅 Content distribution by release year
-* 🌎 Country-wise Netflix content analysis
-* 🎭 Genre/category analysis
-* ⏱️ Movie duration analysis
-* 📈 Year-wise content trends
-* 🔍 Interactive filters for exploring the data
-* 📊 Clean and user-friendly dashboard interface
+The dashboard brings key metrics and visual analysis together in one place, allowing users to explore the data using **Year** and **Genre** filters.
 
-## 🛠️ Technologies Used
+---
 
-* **Power BI** – Dashboard development and visualization
-* **Microsoft Excel / CSV** – Data storage and preprocessing
-* **Data Cleaning & Transformation** – Preparing the dataset for analysis
-* **Data Visualization** – Charts, graphs, and interactive visuals
+## 🎯 Objectives
 
-## 📂 Project Structure
+- Analyze movie and streaming-content performance
+- Identify highly rated titles
+- Compare popularity across genres
+- Analyze average IMDb ratings by genre
+- Understand audience engagement through vote counts and ratings
+- Track popularity trends over the years
+- Analyze content growth over time
+- Explore content distribution by language
+
+---
+
+## 📊 Dashboard Highlights
+
+| KPI | Value |
+|---|---:|
+| High Rated Titles | **436** |
+| Total Content | **10K** |
+| Average IMDb Rating | **6.43** |
+| Average Popularity | **40.32** |
+| Average Vote Count | **1.39K** |
+
+### Key Analysis
+
+- Average Popularity by Genre
+- IMDb Rating by Genre
+- Content Distribution
+- Language Distribution
+- Vote Count vs. Average Rating
+- Popularity Trend by Year
+- Content Growth by Year
+
+---
+
+## 🖥️ Dashboard Preview
+
+![Movie & Streaming Content Analytics Dashboard](Images/dashboard.png)
+
+---
+
+## 🔎 Interactive Filters
+
+The dashboard allows users to explore the data using:
+
+- **Year**
+- **Genre**
+
+These filters make it easier to compare different periods and content categories.
+
+---
+
+## 🗂️ Dataset
+
+The dataset contains **9,837 records** with fields including:
+
+- Release Date
+- Title
+- Overview
+- Popularity
+- Vote Count
+- Vote Average
+- Original Language
+- Genre
+- Poster URL
+
+---
+
+## 🛠️ Tools & Technologies
+
+| Tool | Purpose |
+|---|---|
+| **Power BI** | Dashboard development and data visualization |
+| **SQL** | Data analysis and business queries |
+| **Python** | Data preparation and exploratory analysis |
+| **Excel** | Source dataset |
+
+---
+
+## 📈 Analysis Performed
+
+### Genre Analysis
+
+Compared genres based on:
+
+- Average popularity
+- Average IMDb rating
+- Content volume
+- Audience engagement
+
+### Rating Analysis
+
+Analyzed:
+
+- Average IMDb rating
+- Highly rated titles
+- Rating patterns across genres
+- Relationship between ratings and votes
+
+### Popularity Analysis
+
+Examined:
+
+- Average popularity by genre
+- Popular titles
+- Popularity trends across release years
+
+### Audience Engagement
+
+Used vote count and vote average to understand audience response to different titles.
+
+### Time-Based Analysis
+
+Analyzed:
+
+- Content growth by year
+- Popularity trends by year
+- Changes in the content catalog over time
+
+### Language Analysis
+
+Explored the distribution of content across original languages.
+
+---
+
+## 💡 Business Questions
+
+The project helps answer questions such as:
+
+1. Which genres have the highest average popularity?
+2. Which genres have the strongest average IMDb ratings?
+3. How many titles are classified as highly rated?
+4. How does audience voting relate to average ratings?
+5. How has content volume changed over the years?
+6. How has popularity changed across release years?
+7. How is content distributed across languages?
+8. Which genres and years show stronger content performance?
+
+---
+
+## 🔄 Project Workflow
 
 ```text
-Netflix-Dashboard/
+Raw Dataset
+     ↓
+Data Inspection & Preparation
+     ↓
+Python / SQL Analysis
+     ↓
+Data Transformation
+     ↓
+Power BI Dashboard
+     ↓
+Interactive Analysis & Insights
+
+
+Movie-Streaming-Content-Analytics/
 │
-├── 📊 Netflix Dashboard.pbix
-├── 📁 Dataset/
-│   └── netflix_titles.csv
-├── 🖼️ Screenshots/
-│   └── dashboard.png
-└── 📄 README.md
-```
-
-## 📈 Dashboard Insights
-
-The dashboard provides insights such as:
-
-### 🎬 Content Type
-
-Analyzes the distribution between **Movies** and **TV Shows** available on Netflix.
-
-### 📅 Release Trends
-
-Shows how Netflix content has changed over the years and highlights periods of significant content growth.
-
-### 🎭 Genres
-
-Identifies the most common genres and categories available on the platform.
-
-### 🌎 Countries
-
-Provides a country-wise analysis of Netflix content and highlights major content-producing regions.
-
-### ⭐ Ratings
-
-Analyzes the distribution of content based on Netflix's maturity and audience ratings.
-
-### ⏱️ Duration
-
-Provides an overview of movie durations and TV show seasons.
-
-## 🖼️ Dashboard Preview
-
-Add your dashboard screenshot here:
-
-```markdown
-![Netflix Dashboard](Screenshots/dashboard.png)
-```
-
-## 💡 Key Takeaways
-
-* Netflix contains a large variety of movies and TV shows across multiple genres.
-* The dashboard makes it easier to identify content trends over time.
-* Movies generally represent a significant portion of the Netflix content library.
-* Content comes from countries across the world, demonstrating Netflix's global reach.
-* Ratings and genres can be used to understand the type of content available to different audiences.
-
-## 🎯 Project Objective
-
-The main objective of this project is to demonstrate **data analysis and visualization skills** by converting Netflix dataset information into meaningful and interactive visual insights.
-
-This project also demonstrates practical experience with:
-
-* Data cleaning
-* Data analysis
-* Data visualization
-* Dashboard design
-* Business intelligence
-* Data storytelling
-
-## 🔮 Future Improvements
-
-* Add more advanced interactive filters
-* Add detailed country-level analysis
-* Include additional Netflix datasets
-* Add year-over-year growth analysis
-* Create more advanced KPIs
-* Publish an interactive online version of the dashboard
+├── README.md
+│
+├── Dashboard/
+│   └── Movie_Streaming_Content_Analytics.pbix
+│
+├── Data/
+│   └── mymoviedb.csv.xlsx
+│
+├── SQL/
+│   └── SQL_Analysis.sql
+│
+├── Python/
+│   └── Data_Analysis.ipynb
+│
+├── Documentation/
+│   ├── Business_Problem_Statement.pdf
+│   ├── Project_Report.pdf
+│   └── SQL_Analysis.pdf
+│
+└── Images/
+    └── dashboard.png
 
 ## 👨‍💻 Author
 
 **Aditya Sharma**
 
-* GitHub: [Aditya70664](https://github.com/Aditya70664)
+Data Analytics | SQL | Python | Power BI
 
-## ⭐ Support
+📧 **Email:** your-email@example.com
 
-If you find this project useful or interesting, consider giving the repository a **⭐ star** on GitHub!
+---
+
+## 📬 Contact
+
+**Aditya Sharma**  
+📧 your-email@example.com
