@@ -87,6 +87,8 @@ The dataset contains **9,837 records** with fields including:
 | **Power BI** | Dashboard development and data visualization |
 | **SQL** | Data analysis and business queries |
 | **Python** | Data preparation and exploratory analysis |
+| **Pandas** | Data cleaning, validation, and transformation |
+| **NumPy** | Numerical computations and array-based operations |
 | **Excel** | Source dataset |
 
 ---
